@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import FormUserDetails from './FormUserDetails';
-import FormPersonalDetails from './AWSServicesSelection';
+import AWSServicesSelection from './AWSServicesSelection';
 import Confirm from './Confirm';
 import Success from './Success';
 
