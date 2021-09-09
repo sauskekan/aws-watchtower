@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import FormUserDetails from './FormUserDetails';
-import FormPersonalDetails from './FormPersonalDetails';
+import FormPersonalDetails from './AWSServicesSelection';
 import Confirm from './Confirm';
 import Success from './Success';
 
@@ -48,7 +48,7 @@ export class UserForm extends Component {
         );
       case 2:
         return (
-          <FormPersonalDetails
+          <AWSServicesSelection
             nextStep={this.nextStep}
             prevStep={this.prevStep}
             handleChange={this.handleChange}

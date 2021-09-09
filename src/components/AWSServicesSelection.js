@@ -5,7 +5,7 @@ import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 
-export class FormPersonalDetails extends Component {
+export class AWSServicesSelection extends Component {
   continue = e => {
     e.preventDefault();
     this.props.nextStep();
@@ -73,4 +73,4 @@ export class FormPersonalDetails extends Component {
   }
 }
 
-export default FormPersonalDetails;
+export default AWSServicesSelection;
