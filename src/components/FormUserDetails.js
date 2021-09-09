@@ -23,19 +23,10 @@ export class FormUserDetails extends Component {
           >
             <AppBar title="Enter User Details" />
             <TextField
-              placeholder="Enter Your First Name"
-              label="First Name"
-              onChange={handleChange('firstName')}
-              defaultValue={values.firstName}
-              margin="normal"
-              fullWidth
-            />
-            <br />
-            <TextField
-              placeholder="Enter Your Last Name"
-              label="Last Name"
-              onChange={handleChange('lastName')}
-              defaultValue={values.lastName}
+              placeholder="Enter Your Name"
+              label="Name"
+              onChange={handleChange('Name')}
+              defaultValue={values.Name}
               margin="normal"
               fullWidth
             />
