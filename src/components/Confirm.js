@@ -32,7 +32,7 @@ export class Confirm extends Component {
             <AppBar title="Confirm User Data" />
             <List>
               <ListItem>
-                <ListItemText primary="Name" secondary={firstName} />
+                <ListItemText primary="Name" secondary={Name} />
               </ListItem>
               <ListItem>
                 <ListItemText primary="Email" secondary={email} />
