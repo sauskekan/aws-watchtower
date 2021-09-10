@@ -4,7 +4,12 @@ const options = [
     { value: "AWS Ahtena", label: "AWS Athena" },
     { value: "Sage Maker", label: "Sage Maker" },
     { value: "Systems Manager", label: "Systems Manager" },
-    { value: "AWS Redshift", label: "AWS Redshift" }
+    { value: "Amazon Kendra", label: "Amazon Kendra" },
+    { value: "AWS Config", label: "AWS Config" },
+    { value: "AWS CloudFormation", label: "AWS CloudFormation" },
+    { value: "EMR", label: "EMR" },
+    { value: "AWS QuickSight", label: "AWS QuickSight" },
+    { value: "AWS Amplify", label: "AWS Amplify" }
   ];
   
   export default options;
