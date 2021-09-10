@@ -30,11 +30,11 @@ class Services extends Component {
       };
 
   render() {
+    
+    element = <h1>Please select the services that you would like to receive announcements about them</h1>;
     return (
-        //JSS
-       
-        element = <><h1 style={{ color: 'red' }}>Hello world</h1>
-        <><Select
+        element,
+      <><><Select
             styles={styles}
             closeMenuOnSelect={false}
             isMulti
@@ -53,7 +53,7 @@ class Services extends Component {
                     variant="contained"
                     onClick={this.continue}
                 >Continue</Button>
-            </></></></>
+            </></>
     )
   }
 }
