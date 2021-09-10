@@ -3,6 +3,7 @@ import Select from "react-select";
 import Dialog from '@material-ui/core/Dialog';
 import AppBar from '@material-ui/core/AppBar';
 import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
 import options from "./Options";
 import "./App.css";
 
