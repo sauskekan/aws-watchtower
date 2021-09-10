@@ -16,6 +16,16 @@ const styles = {
   }
 };
 class Services extends Component {
+    continue = e => {
+        e.preventDefault();
+        this.props.nextStep();
+      };
+    
+      back = e => {
+        e.preventDefault();
+        this.props.prevStep();
+      };
+          
   render() {
     return (
       <><Select
@@ -31,7 +41,7 @@ class Services extends Component {
             <Button color="primary"
             variant="contained"
             onClick={this.continue}
-            >Back</Button>
+            >Continue</Button>
             </>
     )
   }
