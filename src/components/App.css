@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #root {
+    width: 80%;
+  }
+  
+  select {
+    width: 250px;
+    height: 50px;
+    font-size: 36px;
+    background: gainsboro;
+  }
+  
