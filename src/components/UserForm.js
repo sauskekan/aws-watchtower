@@ -38,6 +38,7 @@ export class UserForm extends Component {
     const { Name, email } = this.state;
     const values = { Name, email };
 
+    
     switch (step) {
       case 1:
         return (
