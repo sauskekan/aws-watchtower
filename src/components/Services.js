@@ -17,14 +17,22 @@ const styles = {
 class Services extends Component {
   render() {
     return (
-      <Select
-        styles={styles}
-        closeMenuOnSelect={false}
-        isMulti
-        options={options}
-        defaultValue={options[0]}
-      />
-    );
+      <><Select
+            styles={styles}
+            closeMenuOnSelect={false}
+            isMulti
+            options={options}
+            defaultValue={options[0]} />
+            <Button color="secondary"
+            variant="contained"
+            onClick={this.back}
+            >Back</Button>
+            <Button color="primary"
+            variant="contained"
+            onClick={this.continue}
+            >Back</Button>
+            </>
+    )
   }
 }
 
