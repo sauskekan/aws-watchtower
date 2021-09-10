@@ -30,11 +30,8 @@ class Services extends Component {
       };
 
   render() {
-    
-    element = <h1>Please select the services that you would like to receive announcements about them</h1>;
     return (
-        element,
-      <><><Select
+        <><><Select
             styles={styles}
             closeMenuOnSelect={false}
             isMulti
@@ -45,15 +42,15 @@ class Services extends Component {
             closeMenuOnSelect={false}
             options={frequency}
             defaultValue={frequency[0]} />
-                <Button color="secondary"
-                    variant="contained"
-                    onClick={this.back}
-                >Back</Button>
-                <Button color="primary"
-                    variant="contained"
-                    onClick={this.continue}
-                >Continue</Button>
-            </></>
+        <Button color="secondary"
+            variant="contained"
+            onClick={this.back}
+            >Back</Button>
+        <Button color="primary"
+            variant="contained"
+            onClick={this.continue}
+        >Continue</Button>
+        </></>
     )
   }
 }
