@@ -33,7 +33,7 @@ class Services extends Component {
     return (
         //JSS
         <><div>
-            <h1>Please select the services that you would like to receive announcements about them</h1>
+            <h1 style="color: white;">Please select the services that you would like to receive announcements about them</h1>
         </div><>
         <><Select
             styles={styles}
