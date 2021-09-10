@@ -8,11 +8,14 @@ import { makeStyles } from "@material-ui/core/styles";
 import options from "./Options";
 import "./App.css";
 
-const styles = theme => ({
-    root: {
-      backgroundColor: "red"
+const styles = {
+    multiValue: styles => {
+      return {
+        ...styles,
+        backgroundColor: "papayawhip"
+      };
     }
-  });
+  };
 
 class Services extends Component {
     continue = e => {
@@ -27,6 +30,7 @@ class Services extends Component {
 
   render() {
     const element = <h1>Please select the services that you would like to receive announcements about them</h1>;
+    const { values, handleChange } = this.props;
     return (
       <><Select
             styles={styles}
