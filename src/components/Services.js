@@ -25,8 +25,9 @@ class Services extends Component {
         e.preventDefault();
         this.props.prevStep();
       };
-          
+
   render() {
+    const element = <h1>Please select the services that you would like to receive announcements about them</h1>;
     return (
       <><Select
             styles={styles}
