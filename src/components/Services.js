@@ -4,17 +4,16 @@ import Dialog from '@material-ui/core/Dialog';
 import AppBar from '@material-ui/core/AppBar';
 import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
+import { makeStyles } from "@material-ui/core/styles";
 import options from "./Options";
 import "./App.css";
 
-const styles = {
-  multiValue: styles => {
-    return {
-      ...styles,
-      backgroundColor: "papayawhip"
-    };
-  }
-};
+const styles = theme => ({
+    root: {
+      backgroundColor: "red"
+    }
+  });
+
 class Services extends Component {
     continue = e => {
         e.preventDefault();
