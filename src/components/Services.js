@@ -30,8 +30,8 @@ class Services extends Component {
 
   render() {
     const element = <h1>Please select the services that you would like to receive announcements about them</h1>;
-    const { values, handleChange } = this.props;
     return (
+        element,
       <><Select
             styles={styles}
             closeMenuOnSelect={false}
