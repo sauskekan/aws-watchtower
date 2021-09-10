@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import FormUserDetails from './FormUserDetails';
-import AWSServicesSelection from './AWSServicesSelection';
 import Confirm from './Confirm';
 import Success from './Success';
+import Services from "./Services";
+
 
 export class UserForm extends Component {
   state = {
@@ -48,7 +49,7 @@ export class UserForm extends Component {
         );
       case 2:
         return (
-          <AWSServicesSelection
+          <Services
             nextStep={this.nextStep}
             prevStep={this.prevStep}
             handleChange={this.handleChange}
